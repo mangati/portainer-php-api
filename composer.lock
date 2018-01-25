@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5b1f5e9f8a308267d90bb22ac2d846fb",
+    "packages": [
+        {
+            "name": "mangati/api-client",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mangati/api-client.git",
+                "reference": "89a308c4982391950bdfcca04b062409aa47dc9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mangati/api-client/zipball/89a308c4982391950bdfcca04b062409aa47dc9c",
+                "reference": "89a308c4982391950bdfcca04b062409aa47dc9c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mangati\\Api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rogerio Lino",
+                    "email": "rogeriolino@gmail.com"
+                }
+            ],
+            "description": "Generic JSON restful API client written in PHP.",
+            "time": "2018-01-25T16:31:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

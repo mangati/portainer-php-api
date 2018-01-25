@@ -1,0 +1,20 @@
+{
+    "name": "mangati/portainer-php-api",
+    "description": "Portainer API client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rogerio Lino",
+            "email": "rogeriolino@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mangati\\Portainer\\": "src/"
+        }
+    },
+    "require": {
+        "mangati/api-client": "^0.1"
+    }
+}
