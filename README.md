@@ -10,7 +10,7 @@ Portainer API client
 
 Managing endpoints:
 
-```
+```php
 $portainer = new \Mangati\Portainer\Client('http://127.0.0.1:9000');
 $portainer->auth('admin', '123456789');
 
@@ -22,7 +22,7 @@ print_r($endpoints);
 
 Managing stacks:
 
-```
+```php
 $stacksApi = $portainer->stacks($endpoints[0]['Id']);
 $stacks    = $stacksApi->getAll();
 
