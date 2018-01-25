@@ -4,7 +4,7 @@ Portainer API client
 
 ## Install
 
-    composer req mangati/portainer-php-api
+    composer req mangati/portainer-api
 
 ## Usage
 

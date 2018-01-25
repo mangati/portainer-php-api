@@ -1,5 +1,5 @@
 {
-    "name": "mangati/portainer-php-api",
+    "name": "mangati/portainer-api",
     "description": "Portainer API client",
     "type": "library",
     "license": "MIT",
