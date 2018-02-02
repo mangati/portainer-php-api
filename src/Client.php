@@ -69,6 +69,18 @@ class Client
     }
 
     /**
+     * Docker API
+     * @param int $endpointId
+     * @return Path
+     */
+    public function dockerInfo(int $endpointId): array
+    {
+        $info = $this->client->request('GET', "endpoints/{$endpointId}/docker/info", [], $this->client->session()->headers);
+
+        return $info;
+    }
+
+    /**
      * Docker stacks API
      * @param int $endpointId
      * @return Path
@@ -126,3 +138,4 @@ class Client
         return $path;
     }
 }
+
