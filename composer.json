@@ -15,6 +15,6 @@
         }
     },
     "require": {
-        "mangati/api-client": "^0.1"
+        "mangati/api-client": "^0.2"
     }
 }
