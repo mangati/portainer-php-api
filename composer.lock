@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa47eca5f756f11ca3959b80625fe22a",
+    "content-hash": "ac8705388e17ddcd1c4083ab94a12bfb",
     "packages": [
         {
             "name": "mangati/api-client",
-            "version": "v0.2.0",
+            "version": "v0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mangati/api-client.git",
-                "reference": "0ee2d0d6a7acbf5cfb8630ef4d00204de60d1867"
+                "reference": "53cccdf3bc357bdf0f40bd080a8218b579a5dede"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mangati/api-client/zipball/0ee2d0d6a7acbf5cfb8630ef4d00204de60d1867",
-                "reference": "0ee2d0d6a7acbf5cfb8630ef4d00204de60d1867",
+                "url": "https://api.github.com/repos/mangati/api-client/zipball/53cccdf3bc357bdf0f40bd080a8218b579a5dede",
+                "reference": "53cccdf3bc357bdf0f40bd080a8218b579a5dede",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 }
             ],
             "description": "Generic JSON restful API client written in PHP.",
-            "time": "2018-02-02T18:54:06+00:00"
+            "time": "2018-03-15T21:49:13+00:00"
         }
     ],
     "packages-dev": [],
