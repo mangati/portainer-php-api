@@ -82,12 +82,11 @@ class Client
 
     /**
      * Docker stacks API
-     * @param int $endpointId
      * @return Path
      */
-    public function stacks(int $endpointId): Path
+    public function stacks(): Path
     {
-        $path = $this->client->createPath("endpoints/{$endpointId}/stacks");
+        $path = $this->client->createPath("stacks");
 
         return $path;
     }
