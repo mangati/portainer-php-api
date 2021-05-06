@@ -11,7 +11,7 @@ use Mangati\Api\Path;
  */
 class Client
 {
-    private $client;
+    protected $client;
 
     public function __construct(string $endpoint)
     {
